@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-newshomepage-UeHZB9qNnc)
+- Live Site URL: [Add live site URL here](https://news-homepage-main-delta-five.vercel.app)
 
 ## My process
 
@@ -40,7 +40,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow -[Sass](https://sass-lang.com/) - CSS preprocessor
+- Mobile-first workflow
+- [Sass](https://sass-lang.com/) - CSS preprocessor
 - [React](https://reactjs.org/) - JS library
 - [vite](https://vitejs.dev/) - Build tool
 
