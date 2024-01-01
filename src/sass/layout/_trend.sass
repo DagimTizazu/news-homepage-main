@@ -1,0 +1,117 @@
+.trend
+    display: flex
+    align-items: center
+    gap: 22px
+    margin-bottom: 2em
+    @media(min-width: 700px)
+        gap: 10px
+        align-items: stretch
+        margin-bottom: 0
+        flex-basis: 0
+        flex-grow: 1
+    @media(min-width: 700px)
+        gap: 15px
+    @media(min-width: 900px)
+        gap: 20px
+    @media (min-width: 1440px)
+        gap: 24px
+
+.trend__img
+    max-width: 6.3em
+    @media(min-width: 700px)
+        width: 27%
+        height: auto
+
+.trend__header
+    color: $grayish-blue
+    margin-bottom: .5em
+    @media(min-width: 700px)
+        font-size: 1.1em
+        margin-bottom: .2em
+    @media(min-width:  770px)
+        font-size: 1.25em
+        margin-bottom: .3em
+    @media(min-width:  820px)
+        margin-bottom: .6em
+    @media(min-width: 870px)
+        margin-bottom: .3em
+    @media (min-width: 945px)
+        margin-bottom: .5em
+    @media(min-width: 1000px)
+        font-size: 1.4em
+    @media(min-width: 1000px)
+        font-size: 1.5em
+    @media(min-width: 1200px)
+        font-size: 1.6em
+    @media(min-width: 1200px)
+        font-size: 1.7em
+    @media(min-width: 1400px)
+        font-size: 1.8em
+    @media (min-width: 1440px)
+        font-size: 2em
+
+.trend__sub__header
+    font-size: 1.15em
+    font-weight: 900
+    margin-bottom: .5em
+    @media(min-width: 700px)
+        font-size: .5em
+        line-height: 13px
+        margin-bottom: .2em
+    @media(min-width:  770px)
+        font-size: .6em
+        margin-bottom: .4em
+    @media(min-width:  820px)
+        margin-bottom: .6em
+    @media(min-width: 870px)
+        font-size: .7em
+    @media(min-width: 1000px)
+        font-size: .8em
+    @media(min-width: 1000px)
+        font-size: .9em
+    @media(min-width: 1200px)
+        font-size: 1em
+    @media(min-width: 1200px)
+        font-size: 1.1em
+    @media (min-width: 1440px)
+        font-size: 1.16em
+        &:hover
+            color: $soft-red
+
+.trend__text
+    font-size: 1em
+    color: $dark-grayish-blue
+    line-height: 1.7em
+    @media(min-width: 700px)
+        font-size: .5em
+        line-height: 1.4em
+    @media(min-width:  800px)
+        font-size: .6em
+    @media(min-width: 870px)
+        line-height: 1.8em
+    @media(min-width: 1000px)
+        font-size: .73em
+    @media(min-width: 1200px)
+        font-size: .8em
+    @media(min-width: 1200px)
+        font-size: .85em
+    @media (min-width: 1440px)
+        font-size: .98em
+
+.trending
+    @media(min-width: 700px)
+        display: flex
+        grid-column: 1 / span 3
+        min-width: 0
+        min-height: 0
+        overflow: hidden
+        gap: .5em
+        justify-content: space-between
+    @media(min-width: 900px)
+        gap: 1.3em
+
+.trend__sub-container
+    @media(min-width: 700px)
+        display: flex
+        flex-direction: column
+        justify-content: space-between

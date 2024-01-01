@@ -1,0 +1,103 @@
+.hero-area__mobile-img
+    margin: auto
+    max-width: 100%
+    @media (min-width: 700px)
+        display: none
+
+.hero-area__desktop-img
+    display: none
+    @media (min-width: 700px)
+        width: 100%
+        height: auto
+        display: block
+        margin-bottom: 1em
+        @media(min-width: 800px)
+            margin-bottom: 1.2em
+        @media(min-width: 900px)
+            margin-bottom: 1.4em
+        @media(min-width: 1000px)
+            margin-bottom: 1.6em
+        @media(min-width: 1100px)
+            margin-bottom: 1.8em
+        @media (min-width: 1300px)
+            margin-bottom: 2.3em
+
+.hero-area
+    @media (min-width: 700px)
+        grid-column: 1 / span 2
+
+.hero-area__heading
+    font-weight: 800
+    font-size: 2.6em
+    line-height: 47px
+    margin: 0.40em 0
+    @media (min-width: 700px)
+        font-size: 1.8em
+        line-height: 28px
+        grid-row-start: 1
+        grid-row-end: 3
+        margin: 0
+    @media (min-width: 800px)
+        font-size: 2.3em
+        line-height: 35px
+    @media (min-width: 900px)
+        line-height: 38px
+        font-size: 2.5em
+        line-height: 40px
+    @media (min-width: 1000px)
+        font-size: 2.6em
+        line-height: 41px
+    @media(min-width:  1100px)
+        font-size: 2.7em
+        line-height: 43px
+    @media(min-width:  1200px)
+        font-size: 3em
+        line-height: 50px
+    @media (min-width: 1300px)
+        font-size: 3.5em
+        line-height: 56px
+
+.hero-area__text
+    color: $dark-grayish-blue
+    font-size: .9em
+    line-height: 25px
+    margin-bottom: 2.5em
+    @media (min-width: 700px)
+        font-size: .5em
+        line-height: 13px
+        margin-bottom: 0
+    @media (min-width: 800px)
+        font-size: .55em
+        line-height: 17px
+    @media (min-width: 840px)
+        font-size: .60em
+    @media (min-width: 910px)
+        font-size: .65em
+    @media(min-width: 945px)
+        font-size: .70em
+    @media(min-width:  1000px)
+        font-size: .75em
+        line-height: 19px
+    @media(min-width:  1048px)
+        font-size: .8em
+    @media(min-width:  1100px)
+        font-size: .85em
+    @media(min-width:  1200px)
+        font-size: .9em
+        line-height: 24px
+    @media (min-width: 1300px)
+        font-size: 1em
+
+.hero-are__text-container
+    @media (min-width: 700px)
+        display: grid
+        grid-template-columns: 50% auto
+        grid-template-rows: 80% auto
+        column-gap: 5px
+    @media (min-width: 945px)
+        grid-template-columns: 40% auto
+        column-gap: 50px
+    @media (min-width: 1100px)
+        column-gap: 65px
+    @media (min-width: 1300px)
+        column-gap: 84px
