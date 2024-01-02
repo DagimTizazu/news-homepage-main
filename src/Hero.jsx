@@ -4,7 +4,7 @@ import desktopHeroImage from './assets/images/image-web-3-desktop.jpg'
 
 function Hero() {
   return (
-    <div className='hero-area'>
+    <div role='main' className='hero-area'>
           <img src={mobileHeroImage} alt="web 3 hero" className='hero-area__mobile-img'/>
           <img src={desktopHeroImage} alt="web 3 hero" className='hero-area__desktop-img' />
           <div className="hero-are__text-container">

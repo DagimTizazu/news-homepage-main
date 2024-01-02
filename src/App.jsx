@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div role='main' className='desktop-grid'>
+      <div className='desktop-grid'>
         <Hero />
         <Aside />
         <Trending />
