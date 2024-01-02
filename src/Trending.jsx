@@ -6,7 +6,7 @@ import Trend from './Trend.jsx'
 
 function Trending() {
   return (
-    <div role='footer' className='trending'>
+    <footer className='trending'>
         
           <Trend 
               image={firstTrendImage}
@@ -26,7 +26,7 @@ function Trending() {
               title='The Growth of Gaming'
               text='How the pandemic has sparked fresh opportunities.' />
 
-    </div>
+    </footer>
   )
 }
 
