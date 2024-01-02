@@ -6,7 +6,7 @@ import Trend from './Trend.jsx'
 
 function Trending() {
   return (
-    <div className='trending'>
+    <div role='footer' className='trending'>
         
           <Trend 
               image={firstTrendImage}
