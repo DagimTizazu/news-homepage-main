@@ -6,7 +6,7 @@ function Trend({ image, no, title, text }) {
       <img className='trend__img' src={image} alt="retro pc" />
       <div className='trend__sub-container'>
           <h1 className='trend__header'>{no}</h1>
-          <h3 className='trend__sub__header'>{title}</h3>
+          <h2 className='trend__sub__header'>{title}</h2>
           <p className='trend__text'>{text}</p>
       </div>
     </div>
